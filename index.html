@@ -1,13 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Stellar Diamond Certificate</title>
+  <meta charset="UTF-8">
+  <title>Stellar Diamond Certificate</title>
+  <style>
+    html, body {
+      margin: 0;
+      background: black;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    video {
+      height: 100vh;
+      width: auto;
+      display: block;
+      margin: 0 auto;
+    }
+  </style>
 </head>
-<body style="margin:0; background:black; display:flex; justify-content:center; align-items:center; height:100vh;">
-    <video autoplay loop muted controls style="max-width:100%; height:auto;">
-        <source src="https://www.dropbox.com/scl/fi/946vj1utrkm8qe8c2v85a/certificat_mimosa_video.mp4?rlkey=9c5ajg0gj1gfklp28303aptox&st=xekbn46e&raw=1" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+<body>
+  <video autoplay loop muted playsinline>
+    <source src="https://www.dropbox.com/scl/fi/946vj1utrkm8qe8c2v85a/certificat_mimosa_video.mp4?rlkey=9c5ajg0gj1gfklp28303aptox&st=xekbn46e&raw=1" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 </body>
 </html>
+
